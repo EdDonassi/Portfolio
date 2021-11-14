@@ -1,0 +1,60 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    font-family: 'Monda', sans-serif;
+    font-size: 19px;
+    color: black;    
+    transition: all ease 0.4s;
+}
+
+a {
+    text-decoration: none;
+}
+
+header h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 52px;
+    border-radius: 20px;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 1%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0.55em;
+}
+
+nav ul li a:hover {
+    color: rgb(25, 177, 126);
+}
+
+header h1:hover {
+    background-color: rgba(241, 255, 251, 0.623);
+}
+
+header img {
+    width: 5%;
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    header img {
+        width: 5%;
+        display: block;
+    }
+    header nav {
+        display: none;
+    }
+}
