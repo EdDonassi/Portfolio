@@ -115,13 +115,45 @@ header img {
 
 }
 
-.section {
+/*.section {
     display: none;
 }
+
+
 .about-me {
     display: block;
 }
+*/
 
 .active {
     display: block;
+}
+
+.section {
+    margin: 5px;
+}
+
+.inside-about {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.about-me-text {    
+    margin-top: 1em;
+    margin-right: 1em;
+    min-width: 50px;
+    max-width: 900px;
+}
+.about-me-text p {
+    width: 100%;
+    text-align: justify;
+}
+
+.about-me-image {
+    width: auto;
+    margin-top: 1em;
+    min-width: 40%;
+    border-radius: 30px;
 }
